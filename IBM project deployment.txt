@@ -1,0 +1,6 @@
+https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/787809a0-36d9-4498-9a99-f02ecfa0c319/predictions?version=2020-10-28
+
+
+API KEY : 
+5Vv6548Jb1i9_CKT5SRB4wY9D5tBqIeql2WkI4btaZKD
+

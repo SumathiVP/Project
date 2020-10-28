@@ -1,0 +1,34 @@
+{
+  "deviceTypes": [
+    {
+      "id": "nodemcu",
+      "running": true,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": "30",
+            "every": "minute"
+          },
+          "json": "{\n  \"randomNumber\": random(0, 150),\n  \"stepcount\":random(1000, 5000),\n  \"Weight\":random(35, 100),\n  \"Height\":random(155, 168)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "1234",
+          "generated": false,
+          "eventOverrides": [
+            {
+              "id": "event_1",
+              "json": "{\n  \"stepcount\":random(1000, 5000),\n  \"Weight\":random(35, 100),\n  \"Height\":random(155, 168)\n}\n"
+            }
+          ]
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-oy4l5g-z4eb6tjxpn"
+}
